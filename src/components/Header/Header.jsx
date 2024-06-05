@@ -16,7 +16,7 @@ const Header = () => {
             </div>
             <div>
                 <button className='border p-2 bg-white rounded'>
-                    <Link to='/'>sign in</Link>
+                    <Link to='/register'>register</Link>
                 </button>
             </div>
         </div>

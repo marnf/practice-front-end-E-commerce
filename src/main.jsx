@@ -10,6 +10,7 @@ import Home from './components/Home/Home.jsx';
 import Banner from './components/Banner/Banner.jsx';
 import Products from './components/Products/Products.jsx';
 import ProductDetails from './components/ProductDetails/ProductDetails.jsx';
+import Register from './components/Register/Register.jsx';
 
 
 
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Banner></Banner>
+      },
+      {
+        path:'/register',
+        element:<Register></Register>
       },
       {
         path:'/products',
